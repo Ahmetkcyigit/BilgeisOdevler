@@ -1,0 +1,9 @@
+main {
+    width: 200px;
+    height: 160px;
+    background-image: url('img/kobi.jpg');
+}
+
+main:hover {
+    background-image: url('img/kobi2.jpg');
+}
