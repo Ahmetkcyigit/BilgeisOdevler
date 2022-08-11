@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ödev 2: SVG</title>
+</head>
+
+<body style="background: url(bg.jpg) no-repeat; ">
+    <div style="margin-top:50px;  ">
+        <div style=" width:1265px; margin:0 auto; position:relative;"><img src="metin.png" width="1265px"
+                height="564px">
+            <!-- 1 -->
+            <div style=" position:absolute; left:333px; top:199px; ">
+                <svg>
+
+                    <defs>
+                        <filter id="f1">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="6" />
+                        </filter>
+                    </defs>
+                    <circle cx="100" cy="75" r="35" stroke="blue" stroke-width="1" fill="yellow" fill="yellow"
+                        filter="url(#f1)" />
+                </svg>
+
+
+                <!-- 2 -->
+            </div>
+            <div style=" position:absolute; left:731px; top:199px; ">
+                <svg>
+
+                    <defs>
+                        <filter id="filtreIDniz">
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="6" />
+                        </filter>
+                    </defs>
+                    <circle cx="100" cy="75" r="35" stroke="blue" stroke-width="1" fill="orange" fill="yellow"
+                        filter="url(#filtreIDniz)" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
