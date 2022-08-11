@@ -1,0 +1,21 @@
+.kucukresim {
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid gray;
+	width: 200px;
+	float: left;
+}
+
+.kucukresim img {
+	width: 100%;
+}
+
+.kucukresim:hover {
+	border: 3px solid red;
+}
+
+.aciklama {
+	text-align: center;
+	font-family: verdana;
+
+}
